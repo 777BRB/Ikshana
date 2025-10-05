@@ -103,7 +103,8 @@ To run the project:
  
 2. For the frontend:
    ```
-   npm run dev
+   For Installing Node Modules - npm i or npm install
+   Then run the command - npm run dev
    ```
  
 3. For the backend:
