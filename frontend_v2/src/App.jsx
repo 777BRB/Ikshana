@@ -16,7 +16,6 @@ import Segresult from './pages/segresult';
     <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        {/* <Route path='/about' element={<About/>}/> */}
         <Route path='/analysis' element={<Analysis/>}/>
         <Route path='/recognition' element={<Recognition/>}/>
         <Route path='/upload' element={<Upload/>}/>
