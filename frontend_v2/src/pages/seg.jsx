@@ -53,7 +53,7 @@ const seg = () => {
                         opacity: "0.7",
                         cursor: "pointer"
                     }} />
-                    <label htmlFor="name" style={{
+                    <h2 style={{
                         letterSpacing: "0px",
                         position: "relative",
                         right: "80px",
@@ -61,7 +61,7 @@ const seg = () => {
                         fontSize: "25px",
                         zIndex:"1",
                         
-                    }}>Upload the image here!</label>
+                    }}>Upload the image here!</h2>
                     <input type="file"
                         onChange={handleFileChange}
                         style={{
