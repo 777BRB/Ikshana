@@ -57,6 +57,7 @@ const Co = () => {
    return (
       <>
          <div className='form' style={{ border:"1px solid blue", width: "40%", height: "600px", margin: "auto", marginTop: "130px", borderTopLeftRadius: "60px", borderBottomRightRadius: "60px", boxShadow: "2px 2px yellow, 3px 3px aqua "}}>
+            
             <h1 style={{textAlign:"center", position:'relative', top:"20px"}}> Enter Co-ordintes Value</h1>
             <div style={{ position: "relative", top: "100px", left: "80px", fontSize: "27px" }}>
                <label htmlFor="name">Enter South Value : </label>
@@ -148,34 +149,6 @@ const Co = () => {
 
 
          </div>
-
-          {/* <div>
-            <h1 style={{ position: "relative", bottom: "150px", left: "200px", padding: "20px", letterSpacing: "3px",  width: "1100px", borderRadius: "7px", background: "white", fontSize: "25px" }}> Graphical Representation of Analysis will show below, Just wait!</h1>
-          </div>
-           <div style={{ position: "relative", bottom: "50px", height: "690px", padding: "20px", borderRadius: "10px", backgroundColor: "white" }}>
-
-              <div>
-                
-                {slope && <img src={slope} alt="slope" width="400px" style={{position:"relative", right:"0px"}} />}
-                {slope ? (<label style={{position:"relative", right:"290px", fontSize:"30px", background:"black", color:"white", padding:"10px", borderRadius:"10px", top:"25px"}}>Slope</label>):(<></>)}
-
-                { TRI && <img src={TRI} alt="Displayed" width="400px" style={{position:"relative", right:"-50px"}} />}
-                {slope ? (<label style={{ position:"relative",right:"210px", fontSize:"30px", background:"black", color:"white", padding:"10px",borderRadius:"10px", top:"25px"}}>TRI</label>):(<></>)}
-
-                {TPI && <img src={TPI} alt="Displayed" width="400px" style={{position:"relative", left:"85px"}} />}
-                {slope ? (<label  style={{ position:"relative",right:"180px", fontSize:"30px", background:"black", color:"white", padding:"10px", borderRadius:"10px" , top:"25px"}}>TPI</label>):(<></>)}
-
-                {Roughness && <img src={Roughness} alt="Displayed" width="400px" />}
-                {slope ? (<label  style={{ position:"relative",right:"290px", fontSize:"30px", background:"black", color:"white", padding:"10px", borderRadius:"10px", top:"25px"}}>Roughness</label>):(<></>)}
-
-                {aspect && <img src={aspect} alt="Displayed" width="400px" />}
-                {slope ? (<label  style={{ position:"relative",right:"270px", fontSize:"30px" , background:"black", color:"white", padding:"10px", borderRadius:"10px" , top:"25px"}}>Aspect</label>):(<></>)}
-
-                {hillshade && <img src={hillshade} alt="Displayed" width="400px" />}
-                {slope ? (<label  style={{ position:"relative", left:"500px", top:"-40px", fontSize:"30px", background:"black", color:"white", padding:"10px", borderRadius:"10px", top:"-10px"}}>Hillshade</label>):(<></>)}
-
-              </div>
-              </div> */}
       </>
    )
 }
