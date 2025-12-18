@@ -10,7 +10,7 @@ const Recognition = () => {
 
 
         <button style={{ padding: "160px", position: "relative", right: "-60px", borderRadius: "10px", outline: "1px solid white", border: "none", top: "40px", width: "500px", height: "300px" }}>
-          <label style={{ position: "relative", top: "100px", left: "-50px", fontSize: "13.5px" }}>See for Person point of view !</label>
+          <h2 style={{ position: "relative", top: "100px", left: "-50px", fontSize: "13.5px" }}>See for Person point of view !</h2>
           <img src={views} alt="" style={{ width: "100px", position: "relative", left: "40px", bottom: "100px" }} />
           {/* <label htmlFor="name" style={{position:"relative", top:"0px", letterSpacing:"5px", fontSize:"20px", right:"50px",}}>Upload file here!</label> */}
           <NavLink to={`/recog?data=${encodeURIComponent('buttomview')}`} style={{ textDecoration: "none" }}>
@@ -28,9 +28,8 @@ const Recognition = () => {
         </button>
 
         <button style={{ padding: "160px", position: "relative", right: "-130px", borderRadius: "10px", outline: "1px solid white", border: "none", top: "40px", width: "500px", height: "300px" }}>
-          <label style={{ position: "relative", top: "100px", left: "-60px", fontSize: "13px", display: "block" }}>See for Satelite Point of view !</label>
+          <h2 style={{ position: "relative", top: "100px", left: "-60px", fontSize: "13px", display: "block" }}>See for Satelite Point of view !</h2>
           <img src={satellite} alt="" style={{ width: "100px", position: "relative", left: "40px", bottom: "100px" }} />
-          {/* <label htmlFor="name" style={{position:"relative", top:"0px", letterSpacing:"5px", fontSize:"20px", right:"50px",}}>Upload file here!</label> */}
           <NavLink to={`/recog?data=${encodeURIComponent('topview')}`} style={{ textDecoration: "none" }}>
             <button style={{
               position: "relative",
